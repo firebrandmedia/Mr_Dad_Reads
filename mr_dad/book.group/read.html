@@ -25,15 +25,15 @@
         </article>
         <section>
             <aside>
-                <a href="{title_permalink='book/read'}"><img src="{book_cover}"></a>
+                <img src="{book_cover}">
             </aside>
-            {/exp:channel:entries}
 
             <aside>
-                <h3>Chapters</h3>
+                <h3>Chapter Title / Length</h3>
                 <ol>
-                {exp:channel:entries channel="chapter" dynamic="off" orderby="date" sort="asc"}
-                <li><a href="{audio_file}">{chapter_name}</a></li>
+                    {parents field="book_name"}
+                        <li><a href="{parents:audio_file}">{parents:chapter_name}</a> <sup>{parents:length}</sup></li>
+                    {/parents}
                 {/exp:channel:entries}
                 </ol>
             </aside>

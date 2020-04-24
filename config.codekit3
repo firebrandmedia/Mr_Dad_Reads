@@ -9,6 +9,47 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 2007,
+		"oA": 0,
+		"oAP": "/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 7473,
+		"oA": 0,
+		"oAP": "/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1328,
+		"oA": 0,
+		"oAP": "/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/browserconfig.xml",
+		"oF": 0
+		},
 	"/css/mrdad.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,6 +79,36 @@
 		"oAP": "/css/mvp-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 555,
+		"oA": 0,
+		"oAP": "/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 653,
+		"oA": 0,
+		"oAP": "/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/mr_dad/_partials/css-js.html": {
 		"cB": 0,
@@ -79,6 +150,27 @@
 		"oAP": "/mr_dad/site.group/index.html",
 		"oF": 0
 		},
+	"/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1408,
+		"oA": 0,
+		"oAP": "/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/scss/mrdad.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,6 +183,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/site.webmanifest",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -101,7 +201,7 @@
 	"creationDate": 609274091.66059697,
 	"displayValue": "Mr. Dad Reads",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-unblue",
+	"iconImageName": "/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
