@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="">
+    {css-js}
+
+    <meta charset="utf-8">
+    <meta name="description" content="Real-aloud when you can't have read-aloud.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{exp:channel:entries channel="book"}{title} - Mr. Dad Reads</title>
+</head>
+
+<body>
+    <header>
+        <i class="fad fa-bookmark"></i>
+        <a href="{site_url}"><h1>Mr. Dad Reads</h1></a>
+        <p>{title}, {author_name}</p>
+    </header>
+    <main>
+        <hr>
+        <article>
+            <aside><p>Tap or click the chapter title to open the audio file with your browser audio player.</p></aside>
+        </article>
+        <section>
+            <aside>
+                <a href="{title_permalink='book/read'}"><img src="{book_cover}"></a>
+            </aside>
+            {/exp:channel:entries}
+
+            <aside>
+                <h3>Chapters</h3>
+                <ol>
+                {exp:channel:entries channel="chapter" dynamic="off" orderby="date" sort="asc"}
+                <li><a href="{audio_file}">{chapter_name}</a></li>
+                {/exp:channel:entries}
+                </ol>
+            </aside>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
+

@@ -3,12 +3,10 @@
 
 <head>
     <link rel="icon" href="">
-    <link rel="stylesheet" href="./css/mvp.css">
-    <link rel="stylesheet" href="./css/mrdad.css">
-    <script src="https://kit.fontawesome.com/7eef3e1f81.js" crossorigin="anonymous"></script>
+    {css-js}
 
     <meta charset="utf-8">
-    <meta name="description" content="Real-aloud when you can't have read-aloud.">
+    <meta name="description" content="Real-aloud for when you're not allowed.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Mr. Dad Reads</title>
@@ -22,21 +20,22 @@
     </header>
     <main>
         <hr>
+        <article>
+            <aside><p>Check back <mark>every Friday</mark> for new chapters!</p></aside>
+            </article>
         <section>
             <header>
                 <h2>Books</h2>
             </header>
-            {exp:channel:category_archive channel="chapter" style="linear"}
-            {categories}
-                    <aside>
-                        <a href="{site_url}"><img src="{category_image}"></a>
-                        <p class="book-title"><small>{category_name}</small></p>
-                        <p>Chapters: {embed="site/chapter" cat_id="{category_id}"}</p>
-                    </aside>
-            {/categories}
-            {/exp:channel:category_archive}
+            {exp:channel:entries channel="book"}
+            <a href="{title_permalink='book/read'}">
+            <aside>
+                <img src="{book_cover}">
+                <p class="book-title"><small>{title}, {author_name}</small></p>
+            </aside>
+            </a>
+            {/exp:channel:entries}
         </section>
-        <hr>
     </main>
     <footer>
     </footer>

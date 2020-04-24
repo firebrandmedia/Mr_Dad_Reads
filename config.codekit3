@@ -39,12 +39,36 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/mr_dad/site.group/chapter.html": {
+	"/mr_dad/_partials/css-js.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/mr_dad/site.group/chapter.html",
+		"oAP": "/mr_dad/_partials/css-js.html",
+		"oF": 0
+		},
+	"/mr_dad/book.group/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mr_dad/book.group/index.html",
+		"oF": 0
+		},
+	"/mr_dad/book.group/read-dev.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mr_dad/book.group/read-dev.html",
+		"oF": 0
+		},
+	"/mr_dad/book.group/read.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mr_dad/book.group/read.html",
 		"oF": 0
 		},
 	"/mr_dad/site.group/index.html": {
