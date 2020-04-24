@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="./css/mvp.css">
+    <link rel="stylesheet" href="./css/mrdad.css">
+    <script src="https://kit.fontawesome.com/7eef3e1f81.js" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Real-aloud when you can't have read-aloud.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mr. Dad Reads</title>
+</head>
+
+<body>
+    <header>
+        <i class="fad fa-bookmark"></i>
+        <a href="{site_url}"><h1>Mr. Dad Reads</h1></a>
+        <p>Read-aloud for when you're not allowed to read.</p>
+    </header>
+    <main>
+        <hr>
+        <section>
+            <header>
+                <h2>Books</h2>
+            </header>
+            {exp:channel:category_archive channel="chapter" style="linear"}
+            {categories}
+                    <aside>
+                        <a href="{site_url}"><img src="{category_image}"></a>
+                        <p class="book-title"><small>{category_name}</small></p>
+                        <p>Chapters: {embed="site/chapter" cat_id="{category_id}"}</p>
+                    </aside>
+            {/categories}
+            {/exp:channel:category_archive}
+        </section>
+        <hr>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
+
