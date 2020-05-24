@@ -31,7 +31,7 @@
             <aside>
                 <h3>Chapter Title / Length</h3>
                 <ol>
-                    {parents field="book_name"}
+                    {parents field="book_name" orderby="entry_date" sort="asc"}
                         <li><a href="{parents:audio_file}">{parents:chapter_name}</a> <sup>{parents:length}</sup></li>
                     {/parents}
                 {/exp:channel:entries}
